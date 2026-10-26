@@ -1237,6 +1237,9 @@ Entries with a [Glama connector](https://glama.ai/mcp/connectors) badge have bee
 - [Proxlai](https://proxlai.com) `https://proxlai.com/api/mcp`
   [![Proxlai MCP connector](https://glama.ai/mcp/connectors/com.proxlai/proxlai/badges/score.svg)](https://glama.ai/mcp/connectors/com.proxlai/proxlai)
   🔓 - Look up and compare verified, dated prices for 231 AI APIs in 38 markets, ranked in one unit per market.
+- [Pugi](https://pugi.io/agents.md) `https://api.pugi.io/api/agent/v1/mcp`
+  [![Pugi MCP connector](https://glama.ai/mcp/connectors/io.pugi/pugi/badges/score.svg)](https://glama.ai/mcp/connectors/io.pugi/pugi)
+  🔓 - Security checks for websites and GitHub repos, logo generation and a catalogue of site starters; free agent key.
 - [qarunbook](https://qarunbook.com) `https://qarunbook.com/api/mcp`
   [![qarunbook MCP connector](https://glama.ai/mcp/connectors/io.github.Ifeanyiejindu/qarunbook/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.Ifeanyiejindu/qarunbook)
   🔑 - Shared app-testing runbook: read the plan, record results per platform and raise issues.
@@ -4444,9 +4447,6 @@ Entries with a [Glama connector](https://glama.ai/mcp/connectors) badge have bee
 - [ProofCore](https://proofcore.org) `https://mcp.proofcore.org`
   [![ProofCore Notary MCP connector](https://glama.ai/mcp/connectors/org.proofcore.mcp/proof-core-notary/badges/score.svg)](https://glama.ai/mcp/connectors/org.proofcore.mcp/proof-core-notary)
   🔓 - Notarize AI outputs, audits and agreements on the TON blockchain, with nothing stored server-side.
-- [Pugi](https://pugi.io/agents.md) `https://api.pugi.io/api/agent/v1/mcp`
-  [![Pugi MCP connector](https://glama.ai/mcp/connectors/io.pugi/pugi/badges/score.svg)](https://glama.ai/mcp/connectors/io.pugi/pugi)
-  🔓 - Website security check graded A+ to F and GitHub repo scan for secrets and vulnerable deps; free agent key.
 - [satledger](https://satledger.org) `https://api.satledger.org/mcp`
   [![satledger MCP connector](https://glama.ai/mcp/connectors/org.satledger/timestamp-receipt/badges/score.svg)](https://glama.ai/mcp/connectors/org.satledger/timestamp-receipt)
   🔓 - RFC 3161 timestamp over a digest you supply; USDC per call over x402, no account, verifies offline.
