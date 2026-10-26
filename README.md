@@ -4446,7 +4446,7 @@ Entries with a [Glama connector](https://glama.ai/mcp/connectors) badge have bee
   🔓 - Notarize AI outputs, audits and agreements on the TON blockchain, with nothing stored server-side.
 - [Pugi](https://pugi.io/agents.md) `https://api.pugi.io/api/agent/v1/mcp`
   [![Pugi MCP connector](https://glama.ai/mcp/connectors/io.pugi/pugi/badges/score.svg)](https://glama.ai/mcp/connectors/io.pugi/pugi)
-  🔓 - Passive website security check graded A+ to F, free with a no-signup agent key; credit top-ups by card link or USDC over x402.
+  🔓 - Website security check graded A+ to F and GitHub repo scan for secrets and vulnerable deps; free agent key.
 - [satledger](https://satledger.org) `https://api.satledger.org/mcp`
   [![satledger MCP connector](https://glama.ai/mcp/connectors/org.satledger/timestamp-receipt/badges/score.svg)](https://glama.ai/mcp/connectors/org.satledger/timestamp-receipt)
   🔓 - RFC 3161 timestamp over a digest you supply; USDC per call over x402, no account, verifies offline.
