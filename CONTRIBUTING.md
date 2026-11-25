@@ -11,7 +11,7 @@ This list is for **remote** MCP servers: servers the provider hosts, that you co
 
 A submission must:
 
-* **Be reachable at a public URL.** The endpoint has to answer an MCP `initialize` request. CI checks this on every PR.
+* **Be reachable at a public URL.** The endpoint has to answer an MCP `initialize` request. Contributors can run the optional live probe locally before submitting.
 * **Be usable by anyone.** Public sign-up is fine. Private, invite-only, and single-tenant endpoints are not.
 * **Speak Streamable HTTP or SSE.** Anything that needs a local process is out of scope — send those to [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers).
 * **Be listed as a [Glama connector](https://glama.ai/mcp/connectors).** Every entry carries the connector badge. See [below](#glama-connector-badge).
@@ -71,7 +71,19 @@ The badge is required. PRs that add an entry without one are not merged.
 4. Edit `README.md`.
 5. Commit and push, then open a pull request describing what the server does.
 
-CI will label your PR with what it found — whether the endpoint answered, which auth it detected, and whether the badge is present and resolves. If a check disagrees with your entry, fix the entry rather than the check.
+Before opening a PR, run the README submission checks locally from the repository root:
+
+```bash
+node scripts/validate-submission.mjs origin/main
+```
+
+This checks the new entries' format, required badge and duplicate endpoints. To also contact the public MCP endpoints and Glama connector pages, add `--probe`:
+
+```bash
+node scripts/validate-submission.mjs origin/main --probe
+```
+
+The live probe sends an unauthenticated MCP `initialize` request and does not send credentials. It requires internet access. Fix any reported issue in your entry before opening the PR.
 
 If you need help, ask in the PR or on [Discord](https://glama.ai/mcp/discord).
 
