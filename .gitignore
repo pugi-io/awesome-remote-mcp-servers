@@ -2,3 +2,6 @@
 !.github
 !.gitignore
 CLAUDE.local.md
+
+# Graphify generated output
+graphify-out/
